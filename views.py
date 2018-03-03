@@ -1,5 +1,9 @@
-# encoding: utf-8
+# -*- coding:utf-8 -*- 
 import uuid
+
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 __author__ = 'mtianyan'
 __date__ = '2018/2/12 0012 00:34'
